@@ -45,23 +45,29 @@ if uploaded_file is not None:
     else:
         st.warning("No crop data found for this soil type.")
 st.markdown("""
-<div style="margin:20px auto; max-width:360px;">
-    <div style="background:#f2f6fc; border-radius:10px; box-shadow:0 2px 8px #ccc; padding:16px 20px; text-align:center; border:2px solid #1976d2;">
-        <span style="font-size:22px; font-weight:900; color:#1976d2;">
-            🚀 Developed by <span style="color:#f57c00;">VickyVignesh0913</span>
-        </span><br>
-        <span style="font-size:18px; color:#388e3c; font-weight:700;">Team: WHITE COLLARS</span>
-        <hr style="border:1px solid #1976d2;width:65%">
-        <span style="font-size:14px; color:#444;">
-            <b>Connect:</b>
-            <a href="https://github.com/VickyVignesh0913" target="_blank" style="color:#1976d2; text-decoration:none;">GitHub</a> |
-            <a href="mailto:yourmail@example.com" style="color:#ff1744; text-decoration:none;">Mail</a>
-        </span>
-    </div>
-    <div style="text-align:center; font-size:12px; color:#888; margin-top:4px;">
-        © 2025 Smart Crop Recommender
-    </div>
+<hr style="border-top:2px solid #1976d2; margin-top:36px;">
+
+<div style="max-width:450px; margin:28px auto;">
+  <div style="background:#f5f7fa; border-radius:12px; box-shadow:0 2px 10px #e0e7ef; padding:18px 24px; text-align:center; border:1px solid #1976d2;">
+    <span style="font-size:22px; font-weight:800; color:#1976d2;">
+      🚀 Developed by <span style="color:#f57c00;">VickyVignesh0913</span>
+    </span>
+    <br>
+    <span style="font-size:16px; color:#388e3c; font-weight:700;">
+      Team: <span style="color:#004d40;">WHITE COLLARS</span>
+    </span>
+    <hr style="border:1px dashed #1976d2; margin:10px 0;">
+    <span style="font-size:15px; color:#444;">
+      <b>Connect:</b>
+      <a href="https://github.com/VickyVignesh0913" target="_blank" style="color:#1976d2;">GitHub</a> |
+      <a href="mailto:yourmail@example.com" style="color:#d84315;">Mail</a>
+    </span>
+  </div>
+  <div style="text-align:center; font-size:13px; color:#888; margin-top:12px;">
+    &copy; 2025 <b>Smart Crop Recommender</b>
+  </div>
 </div>
 """, unsafe_allow_html=True)
+
 
 
