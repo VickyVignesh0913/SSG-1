@@ -49,7 +49,8 @@ st.markdown("""
 
 <div style="text-align:center; padding:8px;">
     <span style="font-size:18px; font-weight:bold; color:#1976d2;">
-        Created by <span style="color:#f57c00;">VickyVignesh0913</span> 🚀
+        Created by <span style="color:#f57c00;">VickyVignesh0913</span> 🚀<br>
+        <span style="font-size:17px; color:#388e3c;"><b>Team: WHITE COLLARS</b></span>
     </span>
     <br>
     <span style="font-size:14px; color:#444;">
@@ -57,4 +58,5 @@ st.markdown("""
     </span>
 </div>
 """, unsafe_allow_html=True)
+
 
