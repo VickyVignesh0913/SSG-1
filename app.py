@@ -44,3 +44,17 @@ if uploaded_file is not None:
             st.write(f"- {crop}")
     else:
         st.warning("No crop data found for this soil type.")
+st.markdown("""
+<hr style="border:1px solid #ccc"/>
+
+<div style="text-align:center; padding:8px;">
+    <span style="font-size:18px; font-weight:bold; color:#1976d2;">
+        Created by <span style="color:#f57c00;">VickyVignesh0913</span> 🚀
+    </span>
+    <br>
+    <span style="font-size:14px; color:#444;">
+        Connect with me on <a href="https://github.com/VickyVignesh0913" target="_blank" style="color:#1976d2;">GitHub</a>
+    </span>
+</div>
+""", unsafe_allow_html=True)
+
