@@ -24,11 +24,11 @@ st.write("Upload a soil image to identify its type and suggest suitable crops.")
 
 uploaded_file = st.file_uploader("Upload soil image", type=["jpg", "jpeg", "png"])
 
-st.markdown("""
-<div style="background:#e8f5e9; border-radius:6px; padding:8px; margin-bottom:10px;">
-    <b>🖼️ Want to try? Download a sample soil image below!</b>
-</div>
-""", unsafe_allow_html=True)
+st.markdown(
+    "<b style='font-size:16px;'>🖼️ Want to try? Download a sample soil image below!</b>",
+    unsafe_allow_html=True
+)
+
 
 with open("sample_soil.jpg", "rb") as file:
     st.download_button(label="Download Sample Soil Image",
